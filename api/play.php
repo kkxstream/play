@@ -51,7 +51,7 @@ $mpd = str_replace('.akamaized','catchup.akamaized',$mpd);
 <?php
 //epg data
 
-$json_url= "https://apstv.000webhostapp.com/tataplay/epg.php?id=$id";
+$json_url= "https://kkxstreamplay.rf.gd/epg.php?id=$id";
 
 // Fetch the JSON data
 $json_content = file_get_contents($json_url);
@@ -88,7 +88,7 @@ $epgn_description = $epgn['description'];
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     
-    <title><?php echo $title . " - " . $year; ?> - CineMix</title>
+    <title><?php echo $title . " - " . $year; ?> - KK Xstreamplay</title>
     <style>
     body{
        background: rgba(14,19,29,0.95);
